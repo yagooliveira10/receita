@@ -1,14 +1,14 @@
-*{
+* {
    margin: 0; 
    padding: 0;
    box-sizing: border-box ;
 }
 
-body{
+body { 
     background: #f3e5d7;
 }
 
-body > div{
+body > div {
    background-color: #fff; 
    max-width: 736px;
    margin-inline: auto;
@@ -17,7 +17,7 @@ body > div{
    border-radius: 24px;
 }
 
-div img{
+div img {
     width: 100%;
     border-radius: 12px;
     margin-bottom: 40px;
@@ -25,6 +25,61 @@ div img{
 
 
 
-h1, h2{
+h1, h2 {
     font-family: 'Lora', serif;
 }
+
+h1 {
+   font-size: 40px;
+   color: #312e2c;
+   line-height: 100%;
+   margin-bottom: 24px;
+
+}
+
+p li, th, td {
+  font-family: 'Outfit', sans-serif;
+}
+
+p {
+    color: #5f564d;
+    line-height: 150%;
+    margin-bottom: 32px;
+}
+
+.tempo {
+    background-color: #fff7fb;
+    padding: 28px;
+    border-radius: 12px;
+    margin-bottom: 32px;
+
+}
+ .tempo h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    font-family: 'Outfit', sans-serif;
+    color: #7a284e;
+    margin-bottom: 16px;
+ }
+
+li {
+   padding-left: 10px;
+   color: #5f564d;
+   line-height: 150%;
+ }
+
+ li + li {
+
+    margin-top: 8px;
+
+ }
+
+ ol, ul {
+    margin-left: 20px;
+ }
+
+ .tempo li ::marker {
+    color: #7a284e;
+    font-size: 12px;
+ }
